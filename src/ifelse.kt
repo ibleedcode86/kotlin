@@ -37,9 +37,15 @@ fun main() {
 }*/
 
 
+<<<<<<< HEAD
 //kotlin spcial can be used as expression
 fun main() {
     val number = 21
+=======
+//kotlin special can be used as expression
+fun main() {
+    val number = 20
+>>>>>>> origin/master
     val result = if (number % 2 == 0){
         "even"
     }
