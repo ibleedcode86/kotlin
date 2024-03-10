@@ -80,13 +80,13 @@ fun main() {
 }*/
 
 
-// Not operator false == true And true = false
 // !! value  2tymes not
 
-fun main() {
+// Not operator false == true And true = false
+/*fun main() {
 
     val answer = true
     val result = !answer
 
     println(result)
-}
+}*/
