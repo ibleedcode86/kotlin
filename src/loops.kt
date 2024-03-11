@@ -64,3 +64,41 @@ fun main() {
     for(i in 1 until 5)  // until rejected upper bound so till 4 only
         println(i)
 }*/
+
+/*fun main() {
+    //negative loops
+    for(i in 10 downTo 1){
+        println(i)
+    }
+}*/
+
+/*
+fun main() {
+    //negative loops also using step
+    for(i in 10 downTo 1 step 2){
+        println(i)
+    }
+}*/
+
+//            PRINTIG A TABLE
+
+/*
+fun main() {
+    val number = 2
+    for (i in 1..10)
+    {
+        println(number * i)
+    }
+}*/
+
+
+//                   FORMATING IT A LITTLE
+
+fun main() {
+    val number = 2
+    for (i in 1..10)
+    {
+       // println(number.toString() + " X " + i + " = " + (number * i))
+        println("$number x $i = ${number * i}")
+    }
+}
