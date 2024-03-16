@@ -45,15 +45,24 @@ fun main() {
 }*/
 
 
-fun main() {
+/*fun main() {
     println(evenorodd(11))
     println(evenorodd(15))
     println(evenorodd(16))
-}
+}*/
+/*
 fun evenorodd(num1 : Int) {
     val result = if (num1 %2 == 0) "even" else "odd"
     println(result)
 }
+*/
+
+
+/*fun main() {
+    var answer = ("2+3")
+        println("answer")
+    }*/
+
 
 
 
