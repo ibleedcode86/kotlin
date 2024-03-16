@@ -21,6 +21,7 @@ fun evenorodd(num1 : Int) {
  //                          FUNCTION OVERLOADING & NAMED ARGUMENTS
 // SAME NAME DIFFERENT PARAMETERS
 
+/*
 fun main() {
     println(additon(1,3))
     println(addition(1.0,2.0))
@@ -34,4 +35,27 @@ fun additon(a:Int , b:Int) : Int {
 
 fun addition(a:Double , b:Double):Double{
     return a + b
+}*/
+
+
+/*
+fun main() {
+    var fn :
+
+}*/
+
+
+fun main() {
+    println(evenorodd(11))
+    println(evenorodd(15))
+    println(evenorodd(16))
 }
+fun evenorodd(num1 : Int) {
+    val result = if (num1 %2 == 0) "even" else "odd"
+    println(result)
+}
+
+
+
+
+
